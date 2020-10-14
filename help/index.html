@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CHI È CHI - Download</title>
+  <link rel="stylesheet" href="css/style-download.com">
+  <link rel="icon" type="image/png" href="icona_schloss.png"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+	
+	<div class="centrato">
+		
+		<div id="centrato-sopra">
+			<img src="icona_help.svg" id="immagine-stampa">
+			<p class="titolo-pagina">help</p>
+			
+			<div class="paragrafo">
+				<p class="titoletto">ID SESSIONE</p>
+				<p class="testolungo">Per iniziare il test, inserisci l’ID sessione che trovi sul libro a pagina 63 e clicca su Conferma. Tieni poi nota degli ID sessione che via via compariranno durante il gioco, in alcuni passaggi. Ti serviranno per riprendere un Test interrotto.</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto"><img src="alfabetagamma.svg" id="alfabetagamma"></p>
+				<p class="testolungo">Per cominciare a interagire con la griglia di verifica, clicca sul simbolo corrispondente al tuo profilo e che hai ricavato dal Questionario di Profilazione (pagine 18-20 del libro).<br>A seconda del tuo profilo, sulla griglia si accenderanno le foto dei soggetti di cui dovrai determinare codice e orientamento, seguendo l’ordine in cui compaiono nei fascicoli presenti nel libro.
+</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto">Codice e orientamento</p>
+				<p class="testolungo">Il codice che identifica ogni soggetto è di 5 lettere. L’orientamento è di conformità o non-conformità.</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto">Aiuti</p>
+				<p class="testolungo">Per procedere nel gioco, per ogni personaggio hai a disposizione due aiuti per il codice alfabetico e un aiuto per l’orientamento.</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto">Griglia</p>
+				<p class="testolungo">La disposizione dei personaggi nella griglia segue l’ordine indicato sul libro a pagina 17.</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto">Verifica e Invia Test</p>
+				<p class="testolungo">Dopo aver inserito codice e orientamento, clicca su Verifica per controllare che le tue risposte siano corrette (un personaggio alla volta nel profilo α, tre alla volta in β, tutti e nove alla fine in γ). In caso di risposta sbagliata, ti sarà comunicato il numero di errori commessi (quanti relativi ai codici e quanti agli orientamenti), e potrai tornare alla schermata relativa al personaggio, modificare le risposte e controllare nuovamente.<br>Una volta inseriti e verificati tutti i codici e gli orientamenti, clicca su Invia test per riceverne l’esito.
+</p>
+			</div>
+			
+			<div class="paragrafo">
+				<p class="titoletto">Video</p>
+				<p class="testolungo">Se il codice e l’orientamento sono corretti, nella griglia comparirà il simbolo di conformità o non conformità, insieme a un tasto Play: cliccando avrai la possibilità di vedere la parte conclusiva degli interrogatori dei personaggi, e poi l’esito finale del test.</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</body>
+
+<style>
+	
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	body {
+		background-color: #e7344c;
+	}
+	
+	@font-face {
+	    font-family: DinMedium;
+	    src: url(DINMedium.otf);
+	}
+	
+	@font-face {
+	    font-family: DinCondensed;
+	    src: url(DINCond.otf);
+	}
+	
+	@font-face {
+	    font-family: DinRegular;
+	    src: url(DINRegular.otf);
+	}
+	
+	.centrato {
+		width: 30rem;
+		text-align: center;
+		position: absolute;
+		top: 15%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		left: 50%;
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		padding-bottom: 3rem;
+	}
+	
+	#centrato-sopra {
+		margin-bottom: 3rem;
+	}
+	
+	#testolungo-container {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.titoletto {
+		font-family: DinMedium;
+		font-size: 1rem;
+		line-height: 0;
+		text-transform: uppercase;
+	}
+	
+	.paragrafo {
+		margin: 2rem 0 2rem 0;
+		text-align: left;
+	}
+	
+	#immagine-stampa {
+		width: 7rem;
+	}
+	
+	.titolo-pagina {
+		font-family: DinCondensed;
+		text-transform: uppercase;
+		font-size: 2rem;
+	}
+	
+	.testolungo {
+		font-size: 1rem;
+		font-family: DinRegular;
+	}
+	
+	.testo-bottone {
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+		font-family: DinMedium;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	
+	.freccina {
+		display: inline-block;
+		width: 1rem;
+	}
+	
+	.bottone-download {
+		background-color: white;
+		border: 3px solid black;
+		padding: 0.6rem 0.6rem 0.3rem 0.6rem;
+	    display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0.5rem;
+	}
+	
+	.bottone-download:hover {
+		cursor: pointer;
+		background-color: #fff8bd;
+	}
+	
+	#alfabetagamma {
+		height: 1.2rem;
+	}
+	
+	@media only screen and (max-width: 600px) {
+		
+		.centrato {
+			width: 85%;
+			top: 10%;
+		}
+	}
+	
+	
+</style>
+
+</html>
